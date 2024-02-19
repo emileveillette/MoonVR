@@ -1,2 +1,2 @@
 # MoonVR
-Cool project, boom boom with laser.
+Projet cool, boom boom avec lasers. ⚡
