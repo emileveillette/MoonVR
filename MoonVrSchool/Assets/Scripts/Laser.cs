@@ -20,7 +20,13 @@ public class Laser : MonoBehaviour
     [SerializeField] private InputActionReference leftTrigger;
     [SerializeField] private InputActionReference rightTrigger;
 
-    [SerializeField] private GameObject explosion;
+    [SerializeField] private ParticleSystem leftMuzzleParticle;
+    [SerializeField] private ParticleSystem leftHitParticle;
+
+    [SerializeField] private ParticleSystem rightMuzzleParticle;
+    [SerializeField] private ParticleSystem rightHitParticle;
+
+
 
     private bool leftIsActive;
     private bool rightIsActive;
@@ -39,23 +45,31 @@ public class Laser : MonoBehaviour
     {
         beamRight.GetComponent<XRInteractorLineVisual>().enabled = true;
         rightIsActive = true;
+        rightMuzzleParticle.Play();
+        rightHitParticle.Play();
     }
 
     private void LeftActivate(InputAction.CallbackContext obj)
     {
         beamLeft.GetComponent<XRInteractorLineVisual>().enabled = true;
         leftIsActive = true;
+        leftMuzzleParticle.Play();
+        leftHitParticle.Play();
     }
 
     private void LeftDeactivate()
     {
         beamLeft.GetComponent<XRInteractorLineVisual>().enabled = false;
         leftIsActive = false;
+        leftMuzzleParticle.Stop();
+        leftHitParticle.Stop();
     }
     private void RightDeactivate()
     {
         beamRight.GetComponent<XRInteractorLineVisual>().enabled = false;
         rightIsActive = false;
+        rightMuzzleParticle.Stop();
+        rightHitParticle.Stop();
     }
 
     private void Update()
@@ -80,6 +94,7 @@ public class Laser : MonoBehaviour
             GameObject leftHitObject = leftRaycastHit.collider.gameObject;
             if (leftHitObject)
             {
+                leftHitParticle.transform.position = leftHitObject.transform.position;
                 if (leftIsActive && leftRaycastHit.collider.TryGetComponent(out Damageable damageable))
                 {
                     damageable.ApplyDamage(damage * Time.fixedDeltaTime);
@@ -89,8 +104,10 @@ public class Laser : MonoBehaviour
 
         if (rightIsActive)
         {
+            
             Physics.Raycast(beamRight.transform.position, beamRight.transform.forward, out rightRaycastHit, 200);
             GameObject rightHitObject = rightRaycastHit.collider.gameObject;
+            rightHitParticle.transform.position = rightRaycastHit.transform.position;
             if (rightHitObject)
             {
                 if (rightIsActive && rightRaycastHit.collider.TryGetComponent(out Damageable damageable))
@@ -99,5 +116,7 @@ public class Laser : MonoBehaviour
                 }
             }
         }
+
+        
     }
 }
