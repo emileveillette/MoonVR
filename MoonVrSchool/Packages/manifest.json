@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "com.atteneder.gltfast": "https://github.com/atteneder/glTFast.git",
+    "com.over.over-unity-sdk": "https://github.com/OVR-Platform/unity-sdk.git#upm",
     "com.unity.collab-proxy": "2.2.0",
     "com.unity.feature.development": "1.0.1",
     "com.unity.feature.vr": "1.0.0",
