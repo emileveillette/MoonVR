@@ -18,25 +18,76 @@ public class Hand : MonoBehaviour
     public GameObject griffesGauches;
     private Vector3 griffesDroitesPosition = Vector3.zero;
     private Vector3 griffesGauchesPosition = Vector3.zero;
-    private bool griffesDroitesActivate = false;
-    private bool griffesGauchesActivate = false;
-    private float griffesSpeed = 0.2f;
-    private Vector3 positionFinaleGriffe = Vector3.zero;
+
+    private float griffesSpeed = 5f;
+    private Vector3 positionFinaleGriffeLeft = Vector3.zero;
+    private Vector3 positionFinaleGriffeRight = Vector3.zero;
 
     private bool griffesAnimation = false;
+    private bool griffesDroitesActivate = false;
+    private bool griffesGauchesActivate = false;
+
     private GameObject currentPoint = null;
     public List<GameObject> contactPoints = new List<GameObject>();
     private MeshRenderer meshRenderer = null;
+
+    [SerializeField] private AudioSource griffeSoundCue = null;
 
     private void Awake()
     {
       meshRenderer = GetComponentInChildren<MeshRenderer>();       
     }
+    private void RightActivate(InputAction.CallbackContext obj)
+    {
+        griffesAnimation = true;
+        griffesDroitesActivate = true;
+        griffeSoundCue.Play();
+
+        if (!griffesDroites) griffesDroitesPosition = griffesDroites.transform.position;
+        positionFinaleGriffeRight = griffesDroitesPosition + new Vector3(0f, 0f, 10.15f);
+        GrabPoint();
+        
+
+        //Debug.Log("RIGHT CLICKK");
+    }
+    private void RightDeactivate()
+    {
+        griffesAnimation = true;
+        griffesDroitesActivate = false;
+
+        if (!griffesDroites) griffesDroitesPosition = griffesDroites.transform.position;
+        positionFinaleGriffeRight = griffesDroitesPosition + new Vector3(0f, 0f, -10.15f);
+        ReleasePoint();
+    }
+
+    private void LeftActivate(InputAction.CallbackContext obj)
+    {
+        griffesAnimation = true;
+        GrabPoint();
+        griffeSoundCue.Play();
+
+        griffesGauchesActivate = true;
+        if(!griffesGauches) griffesDroitesPosition = griffesDroites.transform.position;
+
+        positionFinaleGriffeLeft = griffesGauchesPosition + new Vector3(0f, 0f, 10.15f);
+        //Debug.Log("LEFT CLICKK");
+    }
+
+    private void LeftDeactivate()
+    {
+        griffesAnimation = true;
+        griffesGauchesActivate = false;
+        if (!griffesGauches) griffesDroitesPosition = griffesDroites.transform.position;
+        positionFinaleGriffeLeft = griffesGauchesPosition + new Vector3(0f, 0f, -10.15f);
+        ReleasePoint();
+    }
+
+
     // Start is called before the first frame update
     private void Start()
     {
-        LeftDeactivate();
-        RightDeactivate();
+        //LeftDeactivate();
+        //RightDeactivate();
 
         if (leftTrigger != null)
             leftTrigger.action.performed += LeftActivate;
@@ -63,38 +114,46 @@ public class Hand : MonoBehaviour
                 RightDeactivate();
             }
         }
-        if (griffesDroitesActivate == true && griffesAnimation == true)
+        if(griffesDroites != null)
         {
-            griffesDroitesPosition = griffesDroites.transform.position;
-            positionFinaleGriffe += new Vector3(0f, 0f, -0.15f);
-            griffesDroitesPosition = Vector3.Lerp(griffesDroitesPosition, positionFinaleGriffe, Time.deltaTime * griffesSpeed);
-            if (griffesDroitesPosition == positionFinaleGriffe)
-                griffesAnimation = false;
-        }
-        if (griffesGauchesActivate == true && griffesAnimation == true)
-        {
-            griffesGauchesPosition = griffesGauches.transform.position;
-            positionFinaleGriffe += new Vector3(0f, 0f, -0.15f);
-            griffesGauchesPosition = Vector3.Lerp(griffesGauchesPosition, positionFinaleGriffe, Time.deltaTime * griffesSpeed);
-            if (griffesGauchesPosition == positionFinaleGriffe)
-                griffesAnimation = false;
-        }
+            if (griffesDroitesActivate == true && griffesAnimation == true)
+            {
+                Debug.Log("griffe right on");
 
-        if (griffesDroitesActivate == false && griffesAnimation == true)
-        {
-            griffesDroitesPosition = griffesDroites.transform.position;
-            positionFinaleGriffe += new Vector3(0f, 0f, 0.15f);
-            griffesDroitesPosition = Vector3.Lerp(griffesDroitesPosition, positionFinaleGriffe, Time.deltaTime * griffesSpeed);
-            if (griffesDroitesPosition == positionFinaleGriffe)
-                griffesAnimation = false;
+                griffesDroitesPosition = Vector3.MoveTowards(griffesDroitesPosition, positionFinaleGriffeRight, Time.deltaTime * griffesSpeed);
+                if (griffesDroitesPosition == positionFinaleGriffeRight)
+                    griffesAnimation = false;
+            }
+
+            if (griffesDroitesActivate == false && griffesAnimation == true)
+            {
+                Debug.Log("griffe right off");
+
+                griffesDroitesPosition = Vector3.MoveTowards(griffesDroitesPosition, positionFinaleGriffeRight, Time.deltaTime * griffesSpeed);
+                if (griffesDroitesPosition == positionFinaleGriffeRight)
+                    griffesAnimation = false;
+            }
         }
-        if (griffesGauchesActivate == false && griffesAnimation == true)
+ 
+        if(griffesGauches)
         {
-            griffesGauchesPosition = griffesGauches.transform.position;
-            positionFinaleGriffe += new Vector3(0f, 0f, 0.15f);
-            griffesGauchesPosition = Vector3.Lerp(griffesGauchesPosition, positionFinaleGriffe, Time.deltaTime * griffesSpeed);
-            if (griffesGauchesPosition == positionFinaleGriffe)
-                griffesAnimation = false;
+            if (griffesGauchesActivate == true && griffesAnimation == true)
+            {
+                Debug.Log("griffe left on");
+
+                griffesGauchesPosition = Vector3.MoveTowards(griffesGauchesPosition, positionFinaleGriffeLeft, Time.deltaTime * griffesSpeed);
+                if (griffesGauchesPosition == positionFinaleGriffeLeft)
+                    griffesAnimation = false;
+            }
+
+            if (griffesGauchesActivate == false && griffesAnimation == true)
+            {
+                Debug.Log("griffe left off");
+
+                griffesGauchesPosition = Vector3.MoveTowards(griffesGauchesPosition, positionFinaleGriffeLeft, Time.deltaTime * griffesSpeed);
+                if (griffesGauchesPosition == positionFinaleGriffeLeft)
+                    griffesAnimation = false;
+            }
         }
 
     }
@@ -109,36 +168,7 @@ public class Hand : MonoBehaviour
         Delta = lastPosition - transform.position;
     }
 
-    private void RightActivate(InputAction.CallbackContext obj)
-    {
-        griffesAnimation = true;
-        GrabPoint();
-        griffesDroitesActivate = true;
-        
-        //Debug.Log("RIGHT CLICKK");
-    }
-
-    private void LeftActivate(InputAction.CallbackContext obj)
-    {
-        griffesAnimation = true;
-        GrabPoint();
-        griffesGauchesActivate = true;
-        //Debug.Log("LEFT CLICKK");
-    }
-
-    private void LeftDeactivate()
-    {
-        griffesAnimation = true;
-        griffesGauchesActivate = false;
-        ReleasePoint();
-    }
-    private void RightDeactivate()
-    {
-        griffesAnimation = true;
-        griffesGauchesActivate = false;
-        ReleasePoint();
-    }
-
+    
     private void GrabPoint()
     {
         currentPoint = Utility.GetNearest(transform.position, contactPoints);

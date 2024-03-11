@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/release' branch; Version is '2022.3.18f1 (d29bea25151d) revision 13802474'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'fr' Physical Memory: 16206 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 32386 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.18f1\Editor\Unity.exe
 -name
 AssetImportWorker6
 -projectPath
-C:/Users/elysa/Documents/GitHub/MoonVR/MoonVrSchool
+E:/GitHub/MoonVR/MoonVrSchool
 -logFile
 Logs/AssetImportWorker6.log
 -srvPort
-53883
-Successfully changed project path to: C:/Users/elysa/Documents/GitHub/MoonVR/MoonVrSchool
-C:/Users/elysa/Documents/GitHub/MoonVR/MoonVrSchool
+50458
+Successfully changed project path to: E:/GitHub/MoonVR/MoonVrSchool
+E:/GitHub/MoonVR/MoonVrSchool
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,69 +49,69 @@ C:/Users/elysa/Documents/GitHub/MoonVR/MoonVrSchool
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [32072] Host "[IP] 10.0.0.68 [Port] 0 [Flags] 2 [Guid] 279697982 [EditorId] 279697982 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8GJRCBK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [49792] Host "[IP] 192.168.0.29 [Port] 0 [Flags] 2 [Guid] 582749918 [EditorId] 582749918 [Version] 1048832 [Id] WindowsEditor(7,DancingBlueMan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [32072] Host "[IP] 10.0.0.68 [Port] 0 [Flags] 2 [Guid] 279697982 [EditorId] 279697982 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8GJRCBK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [49792] Host "[IP] 192.168.0.29 [Port] 0 [Flags] 2 [Guid] 582749918 [EditorId] 582749918 [Version] 1048832 [Id] WindowsEditor(7,DancingBlueMan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 87.90 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 2.53 ms.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
+Refreshing native plugins compatible for Editor in 10.24 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 1.64 ms.
 Initialize engine version: 2022.3.18f1 (d29bea25151d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/elysa/Documents/GitHub/MoonVR/MoonVrSchool/Assets
+[Subsystems] Discovering subsystems at path E:/GitHub/MoonVR/MoonVrSchool/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2860)
     Vendor:   NVIDIA
-    VRAM:     5969 MB
-    Driver:   31.0.15.4633
+    VRAM:     7963 MB
+    Driver:   31.0.15.4624
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.032651 seconds.
-- Loaded All Assemblies, in  0.762 seconds
+Registered in 0.004161 seconds.
+- Loaded All Assemblies, in  0.210 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1097 ms
+Android Extension - Scanning For ADB Devices 237 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.089 seconds
-Domain Reload Profiling: 2847ms
-	BeginReloadAssembly (224ms)
+- Finished resetting the current domain, in  0.449 seconds
+Domain Reload Profiling: 659ms
+	BeginReloadAssembly (63ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (62ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (137ms)
-	LoadAllAssembliesAndSetupDomain (303ms)
-		LoadAssemblies (217ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (87ms)
+		LoadAssemblies (63ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (300ms)
-			TypeCache.Refresh (299ms)
-				TypeCache.ScanAssembly (259ms)
+		AnalyzeDomain (85ms)
+			TypeCache.Refresh (84ms)
+				TypeCache.ScanAssembly (76ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (2092ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (449ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1955ms)
+		SetupLoadedEditorAssemblies (413ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1462ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (312ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (273ms)
-			ProcessInitializeOnLoadMethodAttributes (208ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (68ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,8 +121,8 @@ Script 'Packages/com.over.over-unity-sdk/External Resources/UnityGuidRegenerator
 Worker process is ready to serve import requests
 Script 'Packages/com.over.over-unity-sdk/External Resources/UnityGuidRegenerator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.050 seconds
-Refreshing native plugins compatible for Editor in 58.27 ms, found 15 plugins.
+- Loaded All Assemblies, in  0.593 seconds
+Refreshing native plugins compatible for Editor in 6.93 ms, found 15 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Script 'Packages/com.over.over-unity-sdk/External Resources/UnityGuidRegenerator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
@@ -151,48 +151,48 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  2.373 seconds
-Domain Reload Profiling: 4417ms
-	BeginReloadAssembly (331ms)
+- Finished resetting the current domain, in  0.849 seconds
+Domain Reload Profiling: 1442ms
+	BeginReloadAssembly (90ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (42ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (85ms)
-	LoadAllAssembliesAndSetupDomain (1549ms)
-		LoadAssemblies (984ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (451ms)
+		LoadAssemblies (267ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (736ms)
-			TypeCache.Refresh (595ms)
-				TypeCache.ScanAssembly (536ms)
-			ScanForSourceGeneratedMonoScriptInfo (104ms)
-			ResolveRequiredComponents (34ms)
-	FinalizeReload (2374ms)
+		AnalyzeDomain (236ms)
+			TypeCache.Refresh (173ms)
+				TypeCache.ScanAssembly (157ms)
+			ScanForSourceGeneratedMonoScriptInfo (43ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (850ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1959ms)
+		SetupLoadedEditorAssemblies (658ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (277ms)
-			ProcessInitializeOnLoadAttributes (1351ms)
-			ProcessInitializeOnLoadMethodAttributes (251ms)
-			AfterProcessingInitializeOnLoad (33ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (426ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 46.46 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.18 ms.
-Unloading 8617 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 148 unused Assets / (496.8 KB). Loaded Objects now: 9122.
-Memory consumption went from 334.3 MB to 333.8 MB.
-Total: 15.865700 ms (FindLiveObjects: 1.013900 ms CreateObjectMapping: 1.964000 ms MarkObjects: 12.122600 ms  DeleteObjects: 0.763600 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 12.08 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.04 ms.
+Unloading 8619 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 150 unused Assets / (0.5 MB). Loaded Objects now: 9121.
+Memory consumption went from 335.7 MB to 335.2 MB.
+Total: 7.267200 ms (FindLiveObjects: 0.633600 ms CreateObjectMapping: 0.573000 ms MarkObjects: 5.470500 ms  DeleteObjects: 0.587000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -202,186 +202,183 @@ AssetImportParameters requested are different than current active one (requested
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/OVRBundleManager.cs: ae11c06ec3a9a17fadba593bf5b2110f -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/OVRBundleTool.cs: e832ed4472e61e985239fa105b0a4a17 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 298931.687432 seconds.
-  path: Assets/Low Poly Rocks Pack/Rock Assets/Meshes/2 Color/Crystals/Crystal_m_2C_11.fbx
-  artifactKey: Guid(67b3fc3ed2ec3ed4eaa6dadeedc924c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Rocks Pack/Rock Assets/Meshes/2 Color/Crystals/Crystal_m_2C_11.fbx using Guid(67b3fc3ed2ec3ed4eaa6dadeedc924c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fe7990d9fb998a709af6cbabe96deb') in 0.570257 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.014326 seconds.
-  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/FlowerBush/FlowerBush_e_m_01.fbx
-  artifactKey: Guid(263d727369f9f964d93a04047558df0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/FlowerBush/FlowerBush_e_m_01.fbx using Guid(263d727369f9f964d93a04047558df0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57aa01658f0fd1d823137d0d5633259') in 0.039122 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000993 seconds.
-  path: Assets/Oculus/Interaction/Samples/Objects/Props/CoffeeCup/CoffeeCup.fbx
-  artifactKey: Guid(18689f733cbf0774ab1dd44b2bd0043d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Objects/Props/CoffeeCup/CoffeeCup.fbx using Guid(18689f733cbf0774ab1dd44b2bd0043d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1727e926cf04277b2c3ab4689cdd141c') in 0.101832 seconds
+  Time since last request: 5191.575106 seconds.
+  path: Assets/Low Poly Rocks Pack/Rock Assets/Prefabs/With_Mesh_Colliders/2 Color/Block_Rocks/Concrete_Block_2C_05.prefab
+  artifactKey: Guid(2ef926589320c204b8b69f2b686a98d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Rocks Pack/Rock Assets/Prefabs/With_Mesh_Colliders/2 Color/Block_Rocks/Concrete_Block_2C_05.prefab using Guid(2ef926589320c204b8b69f2b686a98d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1d13fc3b0230161bb17b7435ed0013') in 0.285935 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 12
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/GrassPlane/OneSide/GrassPlane_b_OneS_02.fbx
-  artifactKey: Guid(52794947cedb3f54aa762610f7a55b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/GrassPlane/OneSide/GrassPlane_b_OneS_02.fbx using Guid(52794947cedb3f54aa762610f7a55b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775df90cb7c3824eb9e30d4e47bd2d30') in 0.037167 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Received Prepare
+Script 'Packages/com.over.over-unity-sdk/External Resources/UnityGuidRegenerator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.over.over-unity-sdk/External Resources/UnityGuidRegenerator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.418 seconds
+Refreshing native plugins compatible for Editor in 8.07 ms, found 15 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Script 'Packages/com.over.over-unity-sdk/External Resources/UnityGuidRegenerator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.956 seconds
+Domain Reload Profiling: 1372ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (237ms)
+		LoadAssemblies (250ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (956ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (556ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (327ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 10.90 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.05 ms.
+Unloading 8340 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 110 unused Assets / (468.3 KB). Loaded Objects now: 9171.
+Memory consumption went from 282.4 MB to 281.9 MB.
+Total: 6.283800 ms (FindLiveObjects: 0.544600 ms CreateObjectMapping: 0.338000 ms MarkObjects: 5.047500 ms  DeleteObjects: 0.352200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/OneSided/Grass_h_OneS_05.fbx
-  artifactKey: Guid(b84679bdcd6e015499e0612efaad6b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/OneSided/Grass_h_OneS_05.fbx using Guid(b84679bdcd6e015499e0612efaad6b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb7066e21ff4343bb4d44db7d3a3716') in 0.050651 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/OneSided/Grass_h_OneS_01.fbx
-  artifactKey: Guid(ac6eb9161060e7a46ac080d718a96244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/OneSided/Grass_h_OneS_01.fbx using Guid(ac6eb9161060e7a46ac080d718a96244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33a73ba9ed40f26c16956f2811f4b66') in 0.035010 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Flowers/OneSided/Flower_b_OneS_08.fbx
-  artifactKey: Guid(23b0e5bf0d4ae0b4e87dc7ef8da521bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Flowers/OneSided/Flower_b_OneS_08.fbx using Guid(23b0e5bf0d4ae0b4e87dc7ef8da521bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7c0c38d008235429b28716e769c608') in 0.070795 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000895 seconds.
-  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/Bush/Bush_b_m_01.fbx
-  artifactKey: Guid(31320f1f64930074b8639816da6163f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/Bush/Bush_b_m_01.fbx using Guid(31320f1f64930074b8639816da6163f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262b19183cb7a46042b641fe32ab05ed') in 0.040336 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/Low Poly Rocks Pack/Rock Assets/Meshes/Colliders/Crystals/Crystal_s_05_Collider.fbx
-  artifactKey: Guid(d343f4b49f45d4144923cb179532349b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Rocks Pack/Rock Assets/Meshes/Colliders/Crystals/Crystal_s_05_Collider.fbx using Guid(d343f4b49f45d4144923cb179532349b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a2406ee1f5ab1adb9da0c09055310e') in 0.143754 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000937 seconds.
-  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Flowers/TwoSided/Flower_c_TwoS_06.fbx
-  artifactKey: Guid(6226f2b60e6713041a3282b9c6d816d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Flowers/TwoSided/Flower_c_TwoS_06.fbx using Guid(6226f2b60e6713041a3282b9c6d816d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4919efb74876d164a18d5453c57001cb') in 0.029107 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.001043 seconds.
-  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/FlowerBush/FlowerBush_b_m_02.fbx
-  artifactKey: Guid(9cdbb58310644e04ab10a8a1234f8f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/FlowerBush/FlowerBush_b_m_02.fbx using Guid(9cdbb58310644e04ab10a8a1234f8f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903fb5bdac45b8d1d1a1779ad39c0d8e') in 0.047635 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/GrassPlane/TwoSide/GrassPlane_a_TwoS_04.fbx
-  artifactKey: Guid(795faada49bedd2439796d51c895673c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/GrassPlane/TwoSide/GrassPlane_a_TwoS_04.fbx using Guid(795faada49bedd2439796d51c895673c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904123984c4367ae81355e97fbe6ee7a') in 0.038370 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.001547 seconds.
-  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Cactus/No_Bottoms/Cactus_b_m_01.fbx
-  artifactKey: Guid(05a0514eab79f0343a90cdada9f31f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Cactus/No_Bottoms/Cactus_b_m_01.fbx using Guid(05a0514eab79f0343a90cdada9f31f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862b291753bdf29d0c5d41225efd4fd9') in 0.065443 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000889 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/Models/XRControllerLeft.fbx
-  artifactKey: Guid(be3083a5f26d4e859d594ecbe632f87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/Models/XRControllerLeft.fbx using Guid(be3083a5f26d4e859d594ecbe632f87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729e625db18a74d163b66ee07ced8640') in 0.196144 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 53
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/FlowerBush/FlowerBush_b_l_05.fbx
-  artifactKey: Guid(d4d97a5a9aee2ed49baca60eb861f9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/FlowerBush/FlowerBush_b_l_05.fbx using Guid(d4d97a5a9aee2ed49baca60eb861f9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19848060ab8448b0e112e47c7a654127') in 0.091729 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/TwoSided/Grass_c_TwoS_03.fbx
-  artifactKey: Guid(981947a3262e26645acc29a0698decfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/TwoSided/Grass_c_TwoS_03.fbx using Guid(981947a3262e26645acc29a0698decfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b957d1d48d414fb285f9835966970f') in 0.033010 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Models/griffes.fbx
-  artifactKey: Guid(adf4996ec77baf0459a2f11677518a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/griffes.fbx using Guid(adf4996ec77baf0459a2f11677518a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e4b9f1a0437f2c4ac7c01644bf1ee9') in 0.187225 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Low Poly Rocks Pack/Rock Assets/Meshes/1 Color/Block_Rocks/Concrete_Block_06.fbx
-  artifactKey: Guid(e880c185396b4f24c92f2a7c517c1b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Rocks Pack/Rock Assets/Meshes/1 Color/Block_Rocks/Concrete_Block_06.fbx using Guid(e880c185396b4f24c92f2a7c517c1b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61cc210eaac1e866cd03335a425a4e2') in 0.042535 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/Low Poly Rocks Pack/Rock Assets/Meshes/2 Color/Crystals/Crystals_s_2C_04.fbx
-  artifactKey: Guid(444c1ff818f659e45a3c02192f1af5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Rocks Pack/Rock Assets/Meshes/2 Color/Crystals/Crystals_s_2C_04.fbx using Guid(444c1ff818f659e45a3c02192f1af5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2faf0004abb2ecb215199cf3528bbcee') in 0.065430 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/GrassPlane/OneSide/GrassPlane_a_OneS_04.fbx
-  artifactKey: Guid(6e6803f93d6995841b1602236b554781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/GrassPlane/OneSide/GrassPlane_a_OneS_04.fbx using Guid(6e6803f93d6995841b1602236b554781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4158bc8a139ff86b63d3a73e849047fc') in 0.039457 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/VRTemplateAssets/Models/Environment/Totem2.fbx
-  artifactKey: Guid(cec1aebf75b74914097378398b58a48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRTemplateAssets/Models/Environment/Totem2.fbx using Guid(cec1aebf75b74914097378398b58a48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71985c2a11df84f8cbd5f4861b0e119c') in 0.117813 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Models/model.fbx
-  artifactKey: Guid(e41d29fc0bd076b49a623312fa59a69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/model.fbx using Guid(e41d29fc0bd076b49a623312fa59a69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d11: failed to create buffer (target 0x21 mode 0 size 3513800) [0x8007000E]
-d3d11: failed to create buffer (target 0x21 mode 0 size 1405520) [0x8007000E]
+Received Prepare
+Script 'Packages/com.over.over-unity-sdk/External Resources/UnityGuidRegenerator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.over.over-unity-sdk/External Resources/UnityGuidRegenerator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.368 seconds
+Refreshing native plugins compatible for Editor in 6.62 ms, found 15 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Script 'Packages/com.over.over-unity-sdk/External Resources/UnityGuidRegenerator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.844 seconds
+Domain Reload Profiling: 1211ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (208ms)
+		LoadAssemblies (234ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (844ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (499ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (294ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 12.18 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Unloading 8340 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 110 unused Assets / (468.6 KB). Loaded Objects now: 9176.
+Memory consumption went from 284.2 MB to 283.8 MB.
+Total: 8.136200 ms (FindLiveObjects: 0.836400 ms CreateObjectMapping: 0.328000 ms MarkObjects: 6.671800 ms  DeleteObjects: 0.298500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
