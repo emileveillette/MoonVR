@@ -1,0 +1,655 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.18f1 (d29bea25151d) revision 13802474'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'fr' Physical Memory: 16206 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/elysa/Documents/GitHub/MoonVR/MoonVrSchool
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+53883
+Successfully changed project path to: C:/Users/elysa/Documents/GitHub/MoonVR/MoonVrSchool
+C:/Users/elysa/Documents/GitHub/MoonVR/MoonVrSchool
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [30636] Host "[IP] 10.0.0.68 [Port] 0 [Flags] 2 [Guid] 4006105380 [EditorId] 4006105380 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8GJRCBK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [30636] Host "[IP] 10.0.0.68 [Port] 0 [Flags] 2 [Guid] 4006105380 [EditorId] 4006105380 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8GJRCBK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 659.84 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 3.41 ms.
+Initialize engine version: 2022.3.18f1 (d29bea25151d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/elysa/Documents/GitHub/MoonVR/MoonVrSchool/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5969 MB
+    Driver:   31.0.15.4633
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008752 seconds.
+- Loaded All Assemblies, in  0.378 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 317 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.721 seconds
+Domain Reload Profiling: 1098ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (154ms)
+		LoadAssemblies (115ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (136ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (722ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (657ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (462ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (135ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Script 'Packages/com.over.over-unity-sdk/External Resources/UnityGuidRegenerator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+========================================================================
+Worker process is ready to serve import requests
+Script 'Packages/com.over.over-unity-sdk/External Resources/UnityGuidRegenerator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.119 seconds
+Refreshing native plugins compatible for Editor in 28.27 ms, found 15 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Script 'Packages/com.over.over-unity-sdk/External Resources/UnityGuidRegenerator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.89.0
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.389 seconds
+Domain Reload Profiling: 4496ms
+	BeginReloadAssembly (370ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (1580ms)
+		LoadAssemblies (1060ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (759ms)
+			TypeCache.Refresh (643ms)
+				TypeCache.ScanAssembly (592ms)
+			ScanForSourceGeneratedMonoScriptInfo (77ms)
+			ResolveRequiredComponents (37ms)
+	FinalizeReload (2390ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1984ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (56ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (298ms)
+			ProcessInitializeOnLoadAttributes (1375ms)
+			ProcessInitializeOnLoadMethodAttributes (232ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 46.43 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+Unloading 8617 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 148 unused Assets / (495.6 KB). Loaded Objects now: 9122.
+Memory consumption went from 334.2 MB to 333.7 MB.
+Total: 16.744200 ms (FindLiveObjects: 1.682100 ms CreateObjectMapping: 1.818000 ms MarkObjects: 12.409900 ms  DeleteObjects: 0.832400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OVRBundleManager.cs: ae11c06ec3a9a17fadba593bf5b2110f -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/OVRBundleTool.cs: e832ed4472e61e985239fa105b0a4a17 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 298931.677934 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/Key/Models/keyMesh.fbx
+  artifactKey: Guid(e405223c5441ab54984c172e35b1b32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/Key/Models/keyMesh.fbx using Guid(e405223c5441ab54984c172e35b1b32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c428c355e8c60f8017262b5e12b5b1') in 0.899892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/FlowerBush/FlowerBush_b_l_03.fbx
+  artifactKey: Guid(78c990ac9210b47488f3f5f871eb96f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/FlowerBush/FlowerBush_b_l_03.fbx using Guid(78c990ac9210b47488f3f5f871eb96f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8dbb51c296595292cd3898091c0978') in 0.087009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.001993 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/FlowerBush/FlowerBush_a_m_03.fbx
+  artifactKey: Guid(82e2e12635c75684d8759c232c15eee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/FlowerBush/FlowerBush_a_m_03.fbx using Guid(82e2e12635c75684d8759c232c15eee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a68ed60b71e8f2d43495686eeb0053') in 0.051136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Low Poly Rocks Pack/Rock Assets/Meshes/2 Color/Crystals/Crystals_s_2C_05.fbx
+  artifactKey: Guid(a0cdfce961e5ed345899ede709fd54a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Rocks Pack/Rock Assets/Meshes/2 Color/Crystals/Crystals_s_2C_05.fbx using Guid(a0cdfce961e5ed345899ede709fd54a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242bafe1cfbe700705097f548905a3de') in 0.059478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Oculus/Interaction/Samples/Materials/Planet.fbx
+  artifactKey: Guid(b18ecf061c91da1439b820dd542f206d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Materials/Planet.fbx using Guid(b18ecf061c91da1439b820dd542f206d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b504055873212ba4998b8639f12fb2') in 0.063676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/DemoSceneAssets/Models/PushButton.fbx
+  artifactKey: Guid(7ab6f3b0fd1a6ba41b2a47766c16613f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/DemoSceneAssets/Models/PushButton.fbx using Guid(7ab6f3b0fd1a6ba41b2a47766c16613f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342fbd1b4fb89f724a5af0f7ca26e7d1') in 0.108576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/FlowerBush/FlowerBush_h_m_02.fbx
+  artifactKey: Guid(6a55335b350ade6458c047da2cd65f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/FlowerBush/FlowerBush_h_m_02.fbx using Guid(6a55335b350ade6458c047da2cd65f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5099420b3cb4dfba54af0484345fa67e') in 0.049614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/FlowerBush/FlowerBush_e_m_02.fbx
+  artifactKey: Guid(b4a7923a5bd73ec4f92eecb46acb0f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/FlowerBush/FlowerBush_e_m_02.fbx using Guid(b4a7923a5bd73ec4f92eecb46acb0f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aededa71f4240b8663ba7323273880b8') in 0.093403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low Poly Rocks Pack/Rock Assets/Meshes/1 Color/Crystals/Crystal_m_12.fbx
+  artifactKey: Guid(66c6094e2dd56a146aae3a295e27b00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Rocks Pack/Rock Assets/Meshes/1 Color/Crystals/Crystal_m_12.fbx using Guid(66c6094e2dd56a146aae3a295e27b00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713c92406e4bb0f04fab6978f3ba50a5') in 0.071871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low Poly Rocks Pack/Rock Assets/Meshes/Colliders/Crystals/Crystal_s_04_Collider.fbx
+  artifactKey: Guid(fddad48e2c937274c842594b9c1aa5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Rocks Pack/Rock Assets/Meshes/Colliders/Crystals/Crystal_s_04_Collider.fbx using Guid(fddad48e2c937274c842594b9c1aa5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2498920ebcc22c8902707fb66977be6') in 0.054056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/OneSided/Grass_g_OneS_03.fbx
+  artifactKey: Guid(2b81d507f42297a46a6a68f4f2c24368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/OneSided/Grass_g_OneS_03.fbx using Guid(2b81d507f42297a46a6a68f4f2c24368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734601c55e3ff9df9e1624fe9b3b5521') in 0.038737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/FlowerBush/FlowerBush_f_m_05.fbx
+  artifactKey: Guid(66f390d81f38a124b8720cfca0553f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/FlowerBush/FlowerBush_f_m_05.fbx using Guid(66f390d81f38a124b8720cfca0553f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb5f0f1846bd26c936a2cc709ffb446') in 0.072718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Models/Cube_1x1.fbx
+  artifactKey: Guid(f05f2734ffbf9414ba58a734f87730bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Models/Cube_1x1.fbx using Guid(f05f2734ffbf9414ba58a734f87730bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f271702a4c61eb15732878fa25b87e03') in 0.052796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Environment/SmallRoom/Models/smallRoom.fbx
+  artifactKey: Guid(f7c82b9ce28f07e4fa7f50280661a061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/SmallRoom/Models/smallRoom.fbx using Guid(f7c82b9ce28f07e4fa7f50280661a061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d2c0f307a63cbe27adf1c75fa66112') in 0.218234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/TwoSided/Grass_c_TwoS_02.fbx
+  artifactKey: Guid(c2d7df8a46aa1ea46b15b79ceb3a7459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/TwoSided/Grass_c_TwoS_02.fbx using Guid(c2d7df8a46aa1ea46b15b79ceb3a7459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f944c53e9199f73d23a65866f4177a32') in 0.037725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/FlowerBush/FlowerBush_b_m_01.fbx
+  artifactKey: Guid(634942a02e5ce9c41814b2d8eaef8903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/FlowerBush/FlowerBush_b_m_01.fbx using Guid(634942a02e5ce9c41814b2d8eaef8903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0ca799cb830184b398cf1ba7844306') in 0.043855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Flowers/OneSided/Flower_b_OneS_07.fbx
+  artifactKey: Guid(b40aad564d1323a4eaffb217f8b19996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Flowers/OneSided/Flower_b_OneS_07.fbx using Guid(b40aad564d1323a4eaffb217f8b19996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda54f0c41fa43fa01a39bacc5f6b0f7') in 0.049398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.001356 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/ball_billiard_03.fbx
+  artifactKey: Guid(9e5fdf0438d84fe498dfaf4e22a401f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/ball_billiard_03.fbx using Guid(9e5fdf0438d84fe498dfaf4e22a401f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaec45ae5c3d274a914d558961e2086e') in 0.098301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/Bush/Bush_a_l_05.fbx
+  artifactKey: Guid(0aba5f7d88961fe428438dffd98e3f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/Bush/Bush_a_l_05.fbx using Guid(0aba5f7d88961fe428438dffd98e3f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6ca7a80e5159ba9815df99797cd378') in 0.026731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/OneSided/Grass_g_OneS_02.fbx
+  artifactKey: Guid(cca25bb834e6fd448b801a00faf5c5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/OneSided/Grass_g_OneS_02.fbx using Guid(cca25bb834e6fd448b801a00faf5c5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2fe74ed5453112b50f294e372592ab') in 0.029149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/OneSided/Grass_c_OneS_05.fbx
+  artifactKey: Guid(85f09ecacb6a93149902ffaf8ca394fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/OneSided/Grass_c_OneS_05.fbx using Guid(85f09ecacb6a93149902ffaf8ca394fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1337c65cd1a107ebc11a924868e9469f') in 0.039127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/VRTemplateAssets/Models/UI/Spatial Panel Manipulator Model.fbx
+  artifactKey: Guid(c6984c48aed9a154294088f4265d8478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Models/UI/Spatial Panel Manipulator Model.fbx using Guid(c6984c48aed9a154294088f4265d8478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb29ae827a98f743c1fa5c4e1677004') in 0.060889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Environment/Room/Models/backgroundSkyDome.fbx
+  artifactKey: Guid(216e64467da9e644b990c6663f483186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/Room/Models/backgroundSkyDome.fbx using Guid(216e64467da9e644b990c6663f483186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c77c8ce878dfd2dbadf7bfe102978ea') in 0.064088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Models/Cube_1_1.fbx
+  artifactKey: Guid(502c3d024430a46e1a352dd7c830b88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Models/Cube_1_1.fbx using Guid(502c3d024430a46e1a352dd7c830b88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11623806630bd93e05a0b43da4d88123') in 0.039810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Mushrooms/Mushroom_c_06.fbx
+  artifactKey: Guid(92173f0db524b4f41a324e63fd4cbb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Mushrooms/Mushroom_c_06.fbx using Guid(92173f0db524b4f41a324e63fd4cbb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0d1fe89b3b2f428a0ba1c3f9235684') in 0.037048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/TwoSided/Grass_a_TwoS_04.fbx
+  artifactKey: Guid(cb05e12834285ca4585ef6811a8f2b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/TwoSided/Grass_a_TwoS_04.fbx using Guid(cb05e12834285ca4585ef6811a8f2b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d2084899e9083efbfa5185bdfff3fb') in 0.033991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Flowers/OneSided/Flower_e_OneS_07.fbx
+  artifactKey: Guid(a83e393cebced564ba0bb66c3fb36e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Flowers/OneSided/Flower_e_OneS_07.fbx using Guid(a83e393cebced564ba0bb66c3fb36e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad4176a437fdb24b2958c2d879b9f9d') in 0.034623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/TwoSided/Grass_d_TwoS_04.fbx
+  artifactKey: Guid(c32fcadac63465142a8200bb7aeb2108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/TwoSided/Grass_d_TwoS_04.fbx using Guid(c32fcadac63465142a8200bb7aeb2108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f98fd50cce62981dc26c82f50833c0') in 0.073474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.002795 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/TwoSided/Grass_b_TwoS_03.fbx
+  artifactKey: Guid(e725e208569c48a41a24fe729523998e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/TwoSided/Grass_b_TwoS_03.fbx using Guid(e725e208569c48a41a24fe729523998e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09c03018e2fac9c580f15c396a366ee') in 0.025944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/MapWithPins/Materials/MapPointerMat.fbx
+  artifactKey: Guid(afcf09e55a190704e99cfd047692166c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/MapWithPins/Materials/MapPointerMat.fbx using Guid(afcf09e55a190704e99cfd047692166c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Universal Render Pipeline/Lit': Compilation failed (other error) 'out of memory during compilation
+' at line 109 (on d3d11)
+
+Compiling Subshader: 0, Pass: ForwardLit, Fragment program with _MAIN_LIGHT_SHADOWS _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DEBUG_DISPLAY DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON DYNAMICLIGHTMAP_ON EVALUATE_SH_MIXED EVALUATE_SH_VERTEX FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING LOD_FADE_CROSSFADE SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHAMODULATE_ON _ALPHAPREMULTIPLY_ON _ALPHATEST_ON _DBUFFER_MRT1 _DBUFFER_MRT2 _DBUFFER_MRT3 _DETAIL_MULX2 _DETAIL_SCALED _EMISSION _ENVIRONMENTREFLECTIONS_OFF _FORWARD_PLUS _LIGHT_COOKIES _LIGHT_LAYERS _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _METALLICSPECGLOSSMAP _NORMALMAP _OCCLUSIONMAP _PARALLAXMAP _RECEIVE_SHADOWS_OFF _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT _SHADOWS_SOFT_HIGH _SHADOWS_SOFT_LOW _SHADOWS_SOFT_MEDIUM _SPECULARHIGHLIGHTS_OFF _SPECULAR_SETUP _SURFACE_TYPE_TRANSPARENT _WRITE_RENDERING_LAYERS
+ -> (artifact id: '044a681a0396aeea5420e258669a2a64') in 0.195382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.008622 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/FlowerBush/FlowerBush_a_m_06.fbx
+  artifactKey: Guid(bda26b578d56db440a60573d037ed97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/FlowerBush/FlowerBush_a_m_06.fbx using Guid(bda26b578d56db440a60573d037ed97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74ecf4c5c92bdd45b127e2b4535cee9') in 0.136982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.001010 seconds.
+  path: Assets/Low Poly Rocks Pack/Rock Assets/Meshes/1 Color/Crystals/Crystals_l_01.fbx
+  artifactKey: Guid(23bfb1e174f7f4e49a4d133f7c0eb584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Rocks Pack/Rock Assets/Meshes/1 Color/Crystals/Crystals_l_01.fbx using Guid(23bfb1e174f7f4e49a4d133f7c0eb584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5ca52a88054fceb1869f5a7229df31') in 0.075511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/OneSided/Grass_a_OneS_06.fbx
+  artifactKey: Guid(8b11fd1bd4c1c6c4fa06ef75d276373c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/OneSided/Grass_a_OneS_06.fbx using Guid(8b11fd1bd4c1c6c4fa06ef75d276373c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe738cf65c6b4a51f4a9d30d69561be') in 0.085692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/TwoSided/Grass_f_TwoS_06.fbx
+  artifactKey: Guid(800fa48a48f49c0469c9a213bbbcc895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/TwoSided/Grass_f_TwoS_06.fbx using Guid(800fa48a48f49c0469c9a213bbbcc895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a560464ea6516fece042e7143024da2b') in 0.030093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/FlowerBush/FlowerBush_c_m_02.fbx
+  artifactKey: Guid(4527d5a2ccca50e4b84264838207ce1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/FlowerBush/FlowerBush_c_m_02.fbx using Guid(4527d5a2ccca50e4b84264838207ce1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7f7488cc3a6f6107417fe7bd5a80a8') in 0.135232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.004622 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/Bush/Bush_b_l_02.fbx
+  artifactKey: Guid(01ad58d8724c7704a8661907c7eafbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/Bush/Bush_b_l_02.fbx using Guid(01ad58d8724c7704a8661907c7eafbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2fa4ea7b10c7cc9f1a9067b71e4fac') in 0.046064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/Grass3D/Grass3D_a_06.fbx
+  artifactKey: Guid(ab37d82a4769d5745910a36c179e8abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/Grass3D/Grass3D_a_06.fbx using Guid(ab37d82a4769d5745910a36c179e8abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddaf16e83f7824a066a59741ca6861c8') in 0.137209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.016269 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Flowers/TwoSided/Flower_b_TwoS_03.fbx
+  artifactKey: Guid(f63512c8085942b4fbe6e446dbdb6f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Flowers/TwoSided/Flower_b_TwoS_03.fbx using Guid(f63512c8085942b4fbe6e446dbdb6f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5db9e231d7d03c9ed006466633adfeb') in 0.033059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000678 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Cactus/With_Bottoms/Cactus_b_m_BT_01.fbx
+  artifactKey: Guid(2a18cb6fd6ed16844afb61f0f7f957ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Cactus/With_Bottoms/Cactus_b_m_BT_01.fbx using Guid(2a18cb6fd6ed16844afb61f0f7f957ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb739e3fcf4ed1760da636f0b375319a') in 0.166305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/OneSided/Grass_c_OneS_06.fbx
+  artifactKey: Guid(cc4fb742050f39b41b6a8b307ff575d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/OneSided/Grass_c_OneS_06.fbx using Guid(cc4fb742050f39b41b6a8b307ff575d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f93a5a8b597b0fe6253a56bb2e1bf1d') in 0.066500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.004846 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/TwoSided/Grass_b_TwoS_02.fbx
+  artifactKey: Guid(14544f45f2a52804eb3110738c304744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/TwoSided/Grass_b_TwoS_02.fbx using Guid(14544f45f2a52804eb3110738c304744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775efb21670aad2c985bd4bb559fb768') in 0.091123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/OneSided/Grass_c_OneS_07.fbx
+  artifactKey: Guid(49e759dd06bbd064c916d0b1e82d0ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/OneSided/Grass_c_OneS_07.fbx using Guid(49e759dd06bbd064c916d0b1e82d0ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f78575c4b6be129afd08476e15232eb') in 0.035323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.001324 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/FlowerBush/FlowerBush_d_m_02.fbx
+  artifactKey: Guid(bccb8ae88d4cb5e41be615e4d91b0d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Bushes/FlowerBush/FlowerBush_d_m_02.fbx using Guid(bccb8ae88d4cb5e41be615e4d91b0d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9bea5dbc274f2fd96483a137be3536') in 0.074458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/StonePolyhedra/Materials/StonePolyhedraMat.fbx
+  artifactKey: Guid(7e16fe83b18a246aa899b656c3317d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/StonePolyhedra/Materials/StonePolyhedraMat.fbx using Guid(7e16fe83b18a246aa899b656c3317d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7397e90682635f0e3713cc83eb952281') in 0.055363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/Grass3D/Grass3D_a_08.fbx
+  artifactKey: Guid(8f110bcaca2e8564d93b46561b825c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/Grass3D/Grass3D_a_08.fbx using Guid(8f110bcaca2e8564d93b46561b825c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763c011cde8e3e7ec5df16f603191645') in 0.036800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/TennisBall/TennisBallMat.fbx
+  artifactKey: Guid(d5e02c6494e9145b5880a3f4255f2d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/TennisBall/TennisBallMat.fbx using Guid(d5e02c6494e9145b5880a3f4255f2d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84771e6ba8fd046e4d3a5edcb359d74d') in 0.085289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low Poly Rocks Pack/Rock Assets/Meshes/1 Color/Crystals/Crystal_m_09.fbx
+  artifactKey: Guid(f1f323578cab80840ab039b1f4d626e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Rocks Pack/Rock Assets/Meshes/1 Color/Crystals/Crystal_m_09.fbx using Guid(f1f323578cab80840ab039b1f4d626e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41cc2b05d151d387af70a92fac520ed3') in 0.067281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly Rocks Pack/Rock Assets/Meshes/1 Color/Block_Rocks/Concrete_Block_01.fbx
+  artifactKey: Guid(de6b14fbcdbcb1d49a1048a680e5f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Rocks Pack/Rock Assets/Meshes/1 Color/Block_Rocks/Concrete_Block_01.fbx using Guid(de6b14fbcdbcb1d49a1048a680e5f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05d5e58283f4fa9da9c685d5b647b8d') in 0.013727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Flowers/OneSided/Flower_c_OneS_07.fbx
+  artifactKey: Guid(bd2d980758bd0364fa47173a6bad2ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Flowers/OneSided/Flower_c_OneS_07.fbx using Guid(bd2d980758bd0364fa47173a6bad2ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c57ff0f038e0de400f0948061023e68') in 0.052054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly Rocks Pack/Rock Assets/Meshes/Colliders/Crystals/Crystal_m_03_Collider.fbx
+  artifactKey: Guid(9277082466802b148818f49781121160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Rocks Pack/Rock Assets/Meshes/Colliders/Crystals/Crystal_m_03_Collider.fbx using Guid(9277082466802b148818f49781121160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281db955f448fdf87fdabf5e9a67adbd') in 0.023187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Flowers/TwoSided/Flower_c_TwoS_09.fbx
+  artifactKey: Guid(9a19eff8451bb5b47a2fe7122a112003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Flowers/TwoSided/Flower_c_TwoS_09.fbx using Guid(9a19eff8451bb5b47a2fe7122a112003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4883c6e44be5213d64ea9b14ee2450f7') in 0.025041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.001592 seconds.
+  path: Assets/Low Poly Rocks Pack/Rock Assets/Meshes/1 Color/Block_Rocks/Concrete_Block_07.fbx
+  artifactKey: Guid(4efcf886754b025449748e19c9710e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Rocks Pack/Rock Assets/Meshes/1 Color/Block_Rocks/Concrete_Block_07.fbx using Guid(4efcf886754b025449748e19c9710e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd397b4cd634da5b7d55519a18e43707d') in 0.024634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Flowers/OneSided/Flower_e_OneS_02.fbx
+  artifactKey: Guid(3794b7b2db600b54e8eb490b11149ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Flowers/OneSided/Flower_e_OneS_02.fbx using Guid(3794b7b2db600b54e8eb490b11149ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d5374c4fa0f7207a6e15cd381db259') in 0.036584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 21.422405 seconds.
+  path: Assets/Materials/M_Laser.mat
+  artifactKey: Guid(82fcf3e0b3ad104429ec488605ad2902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/M_Laser.mat using Guid(82fcf3e0b3ad104429ec488605ad2902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e09abf4ad2c876a608580b228bd6387') in 0.030608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
