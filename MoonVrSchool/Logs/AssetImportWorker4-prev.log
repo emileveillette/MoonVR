@@ -15,7 +15,7 @@ E:/GitHub/MoonVR/MoonVrSchool
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-50458
+51230
 Successfully changed project path to: E:/GitHub/MoonVR/MoonVrSchool
 E:/GitHub/MoonVR/MoonVrSchool
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,13 +49,13 @@ E:/GitHub/MoonVR/MoonVrSchool
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [45988] Host "[IP] 192.168.0.29 [Port] 0 [Flags] 2 [Guid] 3605550219 [EditorId] 3605550219 [Version] 1048832 [Id] WindowsEditor(7,DancingBlueMan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [14200] Host "[IP] 25.19.206.40 [Port] 0 [Flags] 2 [Guid] 1863697036 [EditorId] 1863697036 [Version] 1048832 [Id] WindowsEditor(7,DancingBlueMan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [45988] Host "[IP] 192.168.0.29 [Port] 0 [Flags] 2 [Guid] 3605550219 [EditorId] 3605550219 [Version] 1048832 [Id] WindowsEditor(7,DancingBlueMan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14200] Host "[IP] 25.19.206.40 [Port] 0 [Flags] 2 [Guid] 1863697036 [EditorId] 1863697036 [Version] 1048832 [Id] WindowsEditor(7,DancingBlueMan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
-Refreshing native plugins compatible for Editor in 10.38 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 1.43 ms.
+Refreshing native plugins compatible for Editor in 14.38 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 3.65 ms.
 Initialize engine version: 2022.3.18f1 (d29bea25151d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path E:/GitHub/MoonVR/MoonVrSchool/Assets
@@ -71,47 +71,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003626 seconds.
-- Loaded All Assemblies, in  0.211 seconds
+Registered in 0.004791 seconds.
+- Loaded All Assemblies, in  0.572 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 260 ms
+Android Extension - Scanning For ADB Devices 258 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.470 seconds
-Domain Reload Profiling: 680ms
-	BeginReloadAssembly (68ms)
+- Finished resetting the current domain, in  0.509 seconds
+Domain Reload Profiling: 1080ms
+	BeginReloadAssembly (279ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (20ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (83ms)
-		LoadAssemblies (67ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (178ms)
+		LoadAssemblies (278ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (82ms)
-			TypeCache.Refresh (81ms)
-				TypeCache.ScanAssembly (73ms)
+		AnalyzeDomain (173ms)
+			TypeCache.Refresh (172ms)
+				TypeCache.ScanAssembly (154ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (470ms)
+	FinalizeReload (509ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (434ms)
+		SetupLoadedEditorAssemblies (466ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (333ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (343ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (68ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (83ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,8 +121,8 @@ Script 'Packages/com.over.over-unity-sdk/External Resources/UnityGuidRegenerator
 Worker process is ready to serve import requests
 Script 'Packages/com.over.over-unity-sdk/External Resources/UnityGuidRegenerator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.622 seconds
-Refreshing native plugins compatible for Editor in 11.18 ms, found 15 plugins.
+- Loaded All Assemblies, in  7.743 seconds
+Refreshing native plugins compatible for Editor in 6.76 ms, found 15 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Script 'Packages/com.over.over-unity-sdk/External Resources/UnityGuidRegenerator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
@@ -151,48 +151,48 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.839 seconds
-Domain Reload Profiling: 1461ms
-	BeginReloadAssembly (99ms)
+- Finished resetting the current domain, in  0.939 seconds
+Domain Reload Profiling: 8679ms
+	BeginReloadAssembly (146ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (468ms)
-		LoadAssemblies (278ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (7505ms)
+		LoadAssemblies (7285ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (246ms)
-			TypeCache.Refresh (180ms)
-				TypeCache.ScanAssembly (160ms)
-			ScanForSourceGeneratedMonoScriptInfo (46ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (840ms)
+		AnalyzeDomain (312ms)
+			TypeCache.Refresh (247ms)
+				TypeCache.ScanAssembly (224ms)
+			ScanForSourceGeneratedMonoScriptInfo (47ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (939ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (659ms)
+		SetupLoadedEditorAssemblies (739ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (132ms)
-			ProcessInitializeOnLoadAttributes (431ms)
-			ProcessInitializeOnLoadMethodAttributes (73ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (157ms)
+			ProcessInitializeOnLoadAttributes (454ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 11.18 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.04 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 13.21 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.05 ms.
 Unloading 8619 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 150 unused Assets / (497.8 KB). Loaded Objects now: 9121.
-Memory consumption went from 335.6 MB to 335.1 MB.
-Total: 6.193600 ms (FindLiveObjects: 0.543900 ms CreateObjectMapping: 0.369000 ms MarkObjects: 4.879500 ms  DeleteObjects: 0.400100 ms)
+Unloading 150 unused Assets / (497.6 KB). Loaded Objects now: 9121.
+Memory consumption went from 335.9 MB to 335.4 MB.
+Total: 9.049100 ms (FindLiveObjects: 0.451600 ms CreateObjectMapping: 0.209300 ms MarkObjects: 7.870800 ms  DeleteObjects: 0.515700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -207,30 +207,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:PPv2URPConverters: bae848875a35fe96f09fcc9f4e534600 -> e545c64fad5560733cc56a1e9e779470
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 5181.177479 seconds.
-  path: Assets/Low Poly Rocks Pack/Bonus Assets/Prefabs/Water
-  artifactKey: Guid(7fbbbfed953b13849970e1add5e5e823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Rocks Pack/Bonus Assets/Prefabs/Water using Guid(7fbbbfed953b13849970e1add5e5e823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93510f179f5bfcef5964f8c331439756') in 0.001780 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 10.376874 seconds.
-  path: Assets/Low Poly Rocks Pack/Rock Assets/Prefabs/With_Mesh_Colliders/2 Color/Block_Rocks/Concrete_Block_2C_01.prefab
-  artifactKey: Guid(e3471ee01a1609048814bd59a03159d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Rocks Pack/Rock Assets/Prefabs/With_Mesh_Colliders/2 Color/Block_Rocks/Concrete_Block_2C_01.prefab using Guid(e3471ee01a1609048814bd59a03159d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c4f1a909c5a8ec7d5a1d94f7bbf574') in 0.262272 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
+  custom:scripting/monoscript/fileName/BloomConverter.cs:  -> a666111ecd1e1cbd1a370b7d6abe927f
+  custom:scripting/monoscript/fileName/MotionBlurConverter.cs:  -> e2dbf9b1fd5dc6c7319e3b5d3a8486fd
+  custom:scripting/monoscript/fileName/PPv2ConversionIndexers.cs:  -> 65a5b22ac4cc25c716b2ffa7aadc7310
+  custom:scripting/monoscript/fileName/PostProcessEffectSettingsConverter.cs:  -> 5c6c8c9d4e3d7ef7ce3a1cf97763e6d7
+  custom:scripting/monoscript/fileName/PropertyConversions.cs:  -> 6e234325c3765eb3212af96d1f442e26
+  custom:scripting/monoscript/fileName/VignetteConverter.cs:  -> 806f0ab02b97c2764801819566285f1b
+  custom:scripting/monoscript/fileName/LensDistortionConverter.cs:  -> 1f9e074c3961674c98a6a559bb020c1f
+  custom:scripting/monoscript/fileName/ColorGradingConverter.cs:  -> 592e98bc13ba3ca6845b8f0d48d564fa
+  custom:scripting/monoscript/fileName/DepthOfFieldConverter.cs:  -> 7ffc27030b0114271981e96660f8593c
+  custom:scripting/monoscript/fileName/ChromaticAberrationConverter.cs:  -> 8b6cd50aaba30dc39140b5c159f6ee71
+  custom:scripting/monoscript/fileName/GrainConverter.cs:  -> 922542731923d8369f558da28adb01e0
+  custom:scripting/monoscript/fileName/PPv2Converter.cs:  -> b68a30004bd6b5be515fc6cb60b6dc72
 ========================================================================
 Received Prepare
 Script 'Packages/com.over.over-unity-sdk/External Resources/UnityGuidRegenerator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
 Script 'Packages/com.over.over-unity-sdk/External Resources/UnityGuidRegenerator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.414 seconds
-Refreshing native plugins compatible for Editor in 7.83 ms, found 15 plugins.
+- Loaded All Assemblies, in  0.667 seconds
+Refreshing native plugins compatible for Editor in 10.91 ms, found 15 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Script 'Packages/com.over.over-unity-sdk/External Resources/UnityGuidRegenerator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
@@ -250,47 +247,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.941 seconds
-Domain Reload Profiling: 1354ms
-	BeginReloadAssembly (146ms)
+- Finished resetting the current domain, in  1.337 seconds
+Domain Reload Profiling: 2003ms
+	BeginReloadAssembly (164ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (19ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (222ms)
-		LoadAssemblies (238ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (427ms)
+		LoadAssemblies (407ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (34ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (25ms)
-	FinalizeReload (942ms)
+		AnalyzeDomain (97ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (48ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (1338ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (549ms)
+		SetupLoadedEditorAssemblies (769ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (129ms)
-			ProcessInitializeOnLoadAttributes (325ms)
-			ProcessInitializeOnLoadMethodAttributes (72ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (196ms)
+			ProcessInitializeOnLoadAttributes (447ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 10.64 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.05 ms.
-Unloading 8340 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 110 unused Assets / (485.9 KB). Loaded Objects now: 9171.
-Memory consumption went from 282.3 MB to 281.8 MB.
-Total: 5.705500 ms (FindLiveObjects: 0.486100 ms CreateObjectMapping: 0.268500 ms MarkObjects: 4.568400 ms  DeleteObjects: 0.381100 ms)
+Refreshing native plugins compatible for Editor in 13.96 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.06 ms.
+Unloading 8473 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 149 unused Assets / (4.4 MB). Loaded Objects now: 9220.
+Memory consumption went from 295.3 MB to 290.9 MB.
+Total: 9.692000 ms (FindLiveObjects: 0.652400 ms CreateObjectMapping: 0.418000 ms MarkObjects: 5.582800 ms  DeleteObjects: 3.037500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -304,7 +301,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:CustomObjectIndexerAttribute: 0f5f72dab822025b0759b197a3119d15 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
