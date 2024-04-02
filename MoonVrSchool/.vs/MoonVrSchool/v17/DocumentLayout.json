@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\elysa\\Documents\\GitHub\\MoonVR\\MoonVrSchool\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\elysa\\Documents\\GitHub\\MoonVR\\MoonVrSchool\\Assets\\Scripts\\Hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\elysa\\Documents\\GitHub\\MoonVR\\MoonVrSchool\\Assets\\MoonVR\\Scripts\\Door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MoonVR\\Scripts\\Door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Hand.cs",
-              "DocumentMoniker": "C:\\Users\\elysa\\Documents\\GitHub\\MoonVR\\MoonVrSchool\\Assets\\Scripts\\Hand.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Hand.cs",
-              "ToolTip": "C:\\Users\\elysa\\Documents\\GitHub\\MoonVR\\MoonVrSchool\\Assets\\Scripts\\Hand.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Hand.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAFAAAAAiAAAA",
+              "Title": "Door.cs",
+              "DocumentMoniker": "C:\\Users\\elysa\\Documents\\GitHub\\MoonVR\\MoonVrSchool\\Assets\\MoonVR\\Scripts\\Door.cs",
+              "RelativeDocumentMoniker": "Assets\\MoonVR\\Scripts\\Door.cs",
+              "ToolTip": "C:\\Users\\elysa\\Documents\\GitHub\\MoonVR\\MoonVrSchool\\Assets\\MoonVR\\Scripts\\Door.cs",
+              "RelativeToolTip": "Assets\\MoonVR\\Scripts\\Door.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwB0AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T23:38:27.216Z",
+              "WhenOpened": "2024-04-02T02:03:45.699Z",
               "EditorCaption": ""
             }
           ]
