@@ -8,6 +8,8 @@ public class Damageable : MonoBehaviour
     private float currentHealth;
 
     [SerializeField] private GameObject explosion;
+    [SerializeField] private AudioSource explosionSound;
+
 
     void Awake()
     {
@@ -22,6 +24,7 @@ public class Damageable : MonoBehaviour
         currentHealth -= damage;
         if(currentHealth <= 0)
         {
+            explosionSound.Play();
             Instantiate(explosion, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }

@@ -16,22 +16,13 @@ public class Hand : MonoBehaviour
     private Vector3 lastPosition = Vector3.zero;
     public GameObject griffesDroites;
     public GameObject griffesGauches;
-    private Vector3 griffesDroitesPosition = Vector3.zero;
-    private Vector3 griffesGauchesPosition = Vector3.zero;
-
-    private float griffesSpeed = 5f;
-    private Vector3 positionFinaleGriffeLeft = Vector3.zero;
-    private Vector3 positionFinaleGriffeRight = Vector3.zero;
-
-    private bool griffesAnimation = false;
-    private bool griffesDroitesActivate = false;
-    private bool griffesGauchesActivate = false;
 
     private GameObject currentPoint = null;
     public List<GameObject> contactPoints = new List<GameObject>();
     private MeshRenderer meshRenderer = null;
 
-    [SerializeField] private AudioSource griffeSoundCue = null;
+    [SerializeField] private AudioSource griffeOpeningSound = null;
+    [SerializeField] private AudioSource griffeClosingSound = null;
 
     private void Awake()
     {
@@ -39,12 +30,8 @@ public class Hand : MonoBehaviour
     }
     private void RightActivate(InputAction.CallbackContext obj)
     {
-        griffesAnimation = true;
-        griffesDroitesActivate = true;
-        griffeSoundCue.Play();
-
-        if (!griffesDroites) griffesDroitesPosition = griffesDroites.transform.position;
-        positionFinaleGriffeRight = griffesDroitesPosition + new Vector3(0f, 0f, 10.15f);
+        griffesDroites.SetActive(true);
+        griffeOpeningSound.Play();
         GrabPoint();
         
 
@@ -52,33 +39,22 @@ public class Hand : MonoBehaviour
     }
     private void RightDeactivate()
     {
-        griffesAnimation = true;
-        griffesDroitesActivate = false;
-
-        if (!griffesDroites) griffesDroitesPosition = griffesDroites.transform.position;
-        positionFinaleGriffeRight = griffesDroitesPosition + new Vector3(0f, 0f, -10.15f);
+        griffesDroites.SetActive(false);
+        griffeClosingSound.Play();
         ReleasePoint();
     }
 
     private void LeftActivate(InputAction.CallbackContext obj)
     {
-        griffesAnimation = true;
+        griffesGauches.SetActive(true);
         GrabPoint();
-        griffeSoundCue.Play();
-
-        griffesGauchesActivate = true;
-        if(!griffesGauches) griffesDroitesPosition = griffesDroites.transform.position;
-
-        positionFinaleGriffeLeft = griffesGauchesPosition + new Vector3(0f, 0f, 10.15f);
-        //Debug.Log("LEFT CLICKK");
+        griffeOpeningSound.Play();
     }
 
     private void LeftDeactivate()
     {
-        griffesAnimation = true;
-        griffesGauchesActivate = false;
-        if (!griffesGauches) griffesDroitesPosition = griffesDroites.transform.position;
-        positionFinaleGriffeLeft = griffesGauchesPosition + new Vector3(0f, 0f, -10.15f);
+        griffesGauches.SetActive(false);
+        griffeClosingSound.Play();
         ReleasePoint();
     }
 
@@ -86,15 +62,14 @@ public class Hand : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        //LeftDeactivate();
-        //RightDeactivate();
-
         if (leftTrigger != null)
             leftTrigger.action.performed += LeftActivate;
         if (rightTrigger != null)
             rightTrigger.action.performed += RightActivate;
 
         lastPosition = transform.position;
+        griffesGauches.SetActive(false);
+        griffesDroites.SetActive(false);
     }
 
     // Update is called once per frame
@@ -114,48 +89,6 @@ public class Hand : MonoBehaviour
                 RightDeactivate();
             }
         }
-        if(griffesDroites != null)
-        {
-            if (griffesDroitesActivate == true && griffesAnimation == true)
-            {
-                Debug.Log("griffe right on");
-
-                griffesDroitesPosition = Vector3.MoveTowards(griffesDroitesPosition, positionFinaleGriffeRight, Time.deltaTime * griffesSpeed);
-                if (griffesDroitesPosition == positionFinaleGriffeRight)
-                    griffesAnimation = false;
-            }
-
-            if (griffesDroitesActivate == false && griffesAnimation == true)
-            {
-                Debug.Log("griffe right off");
-
-                griffesDroitesPosition = Vector3.MoveTowards(griffesDroitesPosition, positionFinaleGriffeRight, Time.deltaTime * griffesSpeed);
-                if (griffesDroitesPosition == positionFinaleGriffeRight)
-                    griffesAnimation = false;
-            }
-        }
- 
-        if(griffesGauches)
-        {
-            if (griffesGauchesActivate == true && griffesAnimation == true)
-            {
-                Debug.Log("griffe left on");
-
-                griffesGauchesPosition = Vector3.MoveTowards(griffesGauchesPosition, positionFinaleGriffeLeft, Time.deltaTime * griffesSpeed);
-                if (griffesGauchesPosition == positionFinaleGriffeLeft)
-                    griffesAnimation = false;
-            }
-
-            if (griffesGauchesActivate == false && griffesAnimation == true)
-            {
-                Debug.Log("griffe left off");
-
-                griffesGauchesPosition = Vector3.MoveTowards(griffesGauchesPosition, positionFinaleGriffeLeft, Time.deltaTime * griffesSpeed);
-                if (griffesGauchesPosition == positionFinaleGriffeLeft)
-                    griffesAnimation = false;
-            }
-        }
-
     }
 
     private void FixedUpdate()
