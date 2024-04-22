@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 109
+  controlID: 45
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 495
     height: 939
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 353
     height: 554
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -384,7 +384,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 36444
+  m_LastSelectedObjectID: 36686
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -430,7 +430,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Externals/Low Poly Rocks Pack/Rock Assets/Meshes/1 Color/Tiles
+    - Assets/MoonVR/Sounds
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -438,16 +438,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Externals/Low Poly Rocks Pack/Rock Assets/Meshes/1 Color/Tiles
+  - Assets/MoonVR/Sounds
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\elysa\Documents\GitHub\MoonVR\MoonVrSchool
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 120}
-    m_SelectedIDs: 12980000
-    m_LastClickedID: 38930
-    m_ExpandedIDs: 0000000000970000029700000497000006970000089700000a9700000c9700000e970000109700001297000014970000169700001897000034970000f897000000ca9a3bffffff7f
+    m_SelectedIDs: 409c0000
+    m_LastClickedID: 40000
+    m_ExpandedIDs: 00000000769b0000789b00007a9b00007c9b00007e9b0000809b0000829b0000849b0000869b0000889b00008a9b00008c9b00008e9b0000929b0000409c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -475,7 +475,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000000970000029700000497000006970000089700000a9700000c9700000e9700001097000012970000149700001697000018970000
+    m_ExpandedIDs: 00000000769b0000789b00007a9b00007c9b00007e9b0000809b0000829b0000849b0000869b0000889b00008a9b00008c9b00008e9b0000909b0000929b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -500,8 +500,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: d48e0000
-    m_LastClickedInstanceID: 36564
+    m_SelectedInstanceIDs: 3c8d0000
+    m_LastClickedInstanceID: 36156
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
@@ -572,7 +572,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 864
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -617,7 +617,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: c2f9ffff24fbffff068e0000
+      m_ExpandedIDs: 24fbffff7c8d0000328e0000ee8e0000be8f00005a900000ec900000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -997,9 +997,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -19.101269, y: 53.44094, z: -175.50493}
+    m_Target: {x: -20.755836, y: 117.72993, z: -179.87456}
     speed: 2
-    m_Value: {x: -19.101269, y: 53.44094, z: -175.50493}
+    m_Value: {x: -20.755836, y: 117.72993, z: -179.87456}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1045,9 +1045,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.10683573, y: -0.7973256, z: -0.14756188, w: 0.5763937}
+    m_Target: {x: -0.10800676, y: 0.88896567, z: -0.28591186, w: -0.3428083}
     speed: 2
-    m_Value: {x: -0.20835727, y: -0.6685636, z: -0.20358653, w: 0.684224}
+    m_Value: {x: -0.107942626, y: 0.8884378, z: -0.28574207, w: -0.34260476}
   m_Size:
     m_Target: 5.5002203
     speed: 2
